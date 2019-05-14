@@ -7,10 +7,10 @@ cookieFunc("homepage");
 <?php
 $cookie_name = "homepage";
 if(!isset($_COOKIE[$cookie_name])) {
-    echo "Cookie named '" . $cookie_name . "' is not set!";
+   // echo "Cookie named '" . $cookie_name . "' is not set!";
 } else {
-    echo "Cookie '" . $cookie_name . "' is set!<br>";
-    echo "Value is: " . $_COOKIE[$cookie_name];
+  //  echo "Cookie '" . $cookie_name . "' is set!<br>";
+    //echo "Value is: " . $_COOKIE[$cookie_name];
 }
 ?>
 
@@ -63,7 +63,7 @@ if(!isset($_COOKIE[$cookie_name])) {
   <h1> <b>Shoppers Stop </b></h1>
    
 
-<p> Click on the category to visit the services provided by them <i class="far fa-hand-point-right"></i>
+<p><b> Click on the category to visit the services provided by them </b> <i class="far fa-hand-point-right"></i>
  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mountain" aria-expanded="false" aria-controls="multiCollapseExample2">Mountain Side Tours</button>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sunshine" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Sunshine School</button>
 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#hon" aria-expanded="false" aria-controls="multiCollapseExample2">Hon Viet</button>
