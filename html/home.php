@@ -93,7 +93,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 <div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>All Inclusive Packages </h3>
-      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="100">
+      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="200">
       
       <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/checkpage.php
 " class="button">Go to Product Page</a>
@@ -101,21 +101,21 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
     <div class="col-sm-3">
       <h3>Customaizable Vacation package</h3>
-      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="100">
+      <img src="./images/2.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/customPackage.php" class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-3">
       <h3> Group Discounts</h3>
-      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="100">
+      <img src="./images/3.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/group.php" class="button">Go to Product Page</a>
 
 
     </div>
      <div class="col-sm-3">
       <h3>Camping</h3>
-      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="100">
+      <img src="./images/4.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/camp.php
 " class="button">Go to Product Page</a>
 
@@ -125,12 +125,12 @@ if(!isset($_COOKIE[$cookie_name])) {
 <div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>Trekking</h3>
-      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="100">
+      <img src="./images/5.jpeg" alt="Smiley face" height="100" width="200">
       <button onClick="gameFunc()">Go to Product Page</button>
     </div>
     <div class="col-sm-3">
       <h3>HoneyMoon Packages </h3>
-      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="100">
+      <img src="./images/6.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/honeymoon.php
 " class="button">Go to Product Page</a>
 
@@ -138,14 +138,14 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
     <div class="col-sm-3">
       <h3>Single Day Picnic Packages </h3>
-      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="100">
+      <img src="./images/7.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/singleday.php" class="button">Go to Product Page</a>
 
 
     </div>
      <div class="col-sm-3">
       <h3>Sky Diving Packages </h3>
-      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="100">
+      <img src="./images/8.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/skydive.php
 " class="button">Go to Product Page</a>
 
@@ -156,14 +156,14 @@ if(!isset($_COOKIE[$cookie_name])) {
 <div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-4">
       <h3>Resort Stay And Party </h3>
-      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="100">
+      <img src="./images/9.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/resort.php" class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-4">
       <h3>Transportation services</h3>
-      <img src="./images/1.jpeg" alt="Smiley face" height="100" width="100">
+      <img src="./images/10.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/transport.php" class="button">Go to Product Page</a>
 
 
