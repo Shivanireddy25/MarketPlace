@@ -84,7 +84,7 @@ if(!isset($_COOKIE[$cookie_name])) {
   </div>
 </div>
 
-<div class="collapse multi-collapse" id="mountain" style="background-color:cyan">
+<div class="collapse multi-collapse" id="mountain" style="background-color:pink">
     <h1>Super Market</h1>
     <h2>Products</h2>
     <p><a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/"<b><h2> Mountain Side Tours </h2></b></a></p>
