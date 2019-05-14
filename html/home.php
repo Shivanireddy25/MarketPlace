@@ -85,7 +85,7 @@ if(!isset($_COOKIE[$cookie_name])) {
   </div>
 </div>
 
-<div class="collapse multi-collapse" id="mountain" style="background-color:pink">
+<div class="collapse multi-collapse" id="mountain" style="background-color:grey">
 
 
 
@@ -122,7 +122,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 
     </div>
   </div>
-<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
+<div class="row" style= "background-image: radial-gradient(pink, orange)">
     <div class="col-sm-3">
       <h3>Trekking</h3>
       <img src="./images/5.jpeg" alt="Smiley face" height="100" width="200">
@@ -153,7 +153,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
   </div>
 
-<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
+<div class="row" style= "background-image: radial-gradient(skyblue, orange)">
     <div class="col-sm-4">
       <h3>Resort Stay And Party </h3>
       <img src="./images/9.jpeg" alt="Smiley face" height="100" width="200">
@@ -171,16 +171,18 @@ if(!isset($_COOKIE[$cookie_name])) {
 
   </div>
 </div>
-<div class="collapse multi-collapse" id="sunshine">
+<div class="collapse multi-collapse" id="sunshine" style="background-color:grey">
     <p><a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/index.html"><b><h2>Sunshine School </h2></b></a></p>
 <div class="row">
     <div class="col-sm-3">
       <h3>Academic Excellence</h3>
+      <img src="./images/11.jpeg" alt="Smiley face" height="100" width="200">
       <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/academics.php
 " class="button">Go to Product Page</a>
     </div>
     <div class="col-sm-3">
       <h3>Notable Alumni</h3>
+      <img src="./images/12.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/alumni.php
 " class="button">Go to Product Page</a>
 
@@ -188,6 +190,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
     <div class="col-sm-3">
       <h3> Sports</h3>
+      <img src="./images/13.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/sports.php
 " class="button">Go to Product Page</a>
 
@@ -196,22 +199,25 @@ if(!isset($_COOKIE[$cookie_name])) {
      <div class="col-sm-3">
       <h3>Art and Cultural Activities
 </h3>
+<img src="./images/14.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/art.php
 " class="button">Go to Product Page</a>
 
 
     </div>
   </div>
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightgreen, grey)">
 <div class="col-sm-3">
 <h3>Science and Technology
 </h3>
+<img src="./images/15.jpeg" alt="Smiley face" height="100" width="200">
       <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/science.php
 " class="button">Go to Product Page</a>
     </div>
     <div class="col-sm-3">
       <h3>Commerce
 </h3>
+<img src="./images/16.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/commerce.php
 " class="button">Go to Product Page</a>
 
@@ -219,6 +225,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
     <div class="col-sm-3">
       <h3>History</h3>
+      <img src="./images/17.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/history.php" class="button">Go to Product Page</a>
 
 
@@ -226,6 +233,7 @@ if(!isset($_COOKIE[$cookie_name])) {
      <div class="col-sm-3">
       <h3>Personality Development
 </h3>
+<img src="./images/18.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/personality.php
 " class="button">Go to Product Page</a>
 
@@ -233,9 +241,10 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
   </div>
 
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-4">
       <h3>Olympiads</h3>
+      <img src="./images/19.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/olympiad.php
 " class="button">Go to Product Page</a>
 
@@ -244,6 +253,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-4">
       <h3>Computer Science
 </h3>
+<img src="./images/20.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/computer.php
 " class="button">Go to Product Page</a>
 
@@ -252,67 +262,78 @@ if(!isset($_COOKIE[$cookie_name])) {
 
   </div>
 </div>
-<div class="collapse multi-collapse" id="hon">
+<div class="collapse multi-collapse" id="hon" style="background-color:grey">
     <p><a href="http://honviet.us/home.html"><b><h2> Hon Viet </h2></b></a></p>
 
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>Beef Noodles</h3>
+      <img src="./images/21.jpeg" alt="Smiley face" height="100" width="200">
       <a href="http://honviet.us/beef_noodle.html" class="button">Go to Product Page</a>
     </div>
     <div class="col-sm-3">
       <h3>Banh Xeo</h3>
+      <img src="./images/22.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://honviet.us/banhxeo.html" class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-3">
       <h3> Beef Salad </h3>
+      <img src="./images/23.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://honviet.us/beef_salad.html" class="button">Go to Product Page</a>
 
 
     </div>
      <div class="col-sm-3">
       <h3>Chicken Noodles</h3>
+      <img src="./images/24.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://honviet.us/chicken_noodle.html" class="button">Go to Product Page</a>
 
 
     </div>
   </div>
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>Egg roll</h3>
+      <img src="./images/25.jpeg" alt="Smiley face" height="100" width="200">
       <a href=http://honviet.us/egg_roll.html" class="button">Go to Product Page</a>
     </div>
     <div class="col-sm-3">
       <h3>Shrimp Salad</h3>
+      <img src="./images/26.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://honviet.us/shrimp_salad.html" class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-3">
       <h3>Crab Noodles</h3>
+      <img src="./images/27.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://honviet.us/crab_noodle.html" class="button">Go to Product Page</a>
 
 
     </div>
      <div class="col-sm-3">
       <h3>Jelly fish salad</h3>
+      <img src="./images/28.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://honviet.us/jelly_salad.html" class="button">Go to Product Page</a>
 
 
     </div>
   </div>
 
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-4">
+
       <h3>Chicken Salad</h3>
+      <img src="./images/29.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://honviet.us/chicken_salad.html" class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-4">
       <h3>Bread</h3>
+      <img src="./images/30.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://honviet.us/banhmi.html" class="button">Go to Product Page</a>
 
 
@@ -321,89 +342,97 @@ if(!isset($_COOKIE[$cookie_name])) {
   </div>
 </div>
 
-<div class="collapse multi-collapse" id="vision">
+<div class="collapse multi-collapse" id="vision" style="background-color:grey">
     <p><a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/index.html"><b><h2> Vision </h2></b></a></p>
 
 
 
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>KnowBe4</h3>
+      <img src="./images/31.jpeg" alt="Smiley face" height="100" width="200">
       <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/LastPass.php" class="button">Go to Product Page</a>     
     </div>
     <div class="col-sm-3">
       <h3>LastPass</h3>
+      <img src="./images/32.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/LastPass.php" class="button">Go to Product Page</a>
       
      
     </div>
     <div class="col-sm-3">
-      <h3>Proofpoint 3</h3>  
+      <h3>Proofpoint 3</h3>
+      <img src="./images/33.jpeg" alt="Smiley face" height="100" width="200">  
           <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/ProofPoint.php" class="button">Go to Product Page</a>
       
       
     </div>
      <div class="col-sm-3">
       <h3>Jamf</h3>   
+      <img src="./images/34.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Jamf.php" class="button">Go to Product Page</a>
       
       
     </div>
   </div>
-  <div class="row">
+  <div class="row" style= "background-image: radial-gradient(lightblue, grey)">
   <div class="col-sm-3">
       <h3>Zoom</h3>
+      <img src="./images/35.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Zoom.php" class="button">Go to Product Page</a>
       
     </div>
     <div class="col-sm-3">
       <h3>Atlassian</h3>
+      <img src="./images/36.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Atlassian.php" class="button">Go to Product Page</a>
       
     </div>
     <div class="col-sm-3">
       <h3>Freshservice</h3> 
+      <img src="./images/37.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Freshservice.php" class="button">Go to Product Page</a>
      
     </div>
      <div class="col-sm-3">
-      <h3>Ring Central</h3>    
+      <h3>Ring Central</h3>  
+      <img src="./images/38.jpeg" alt="Smiley face" height="100" width="200">  
           <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/RingCentral.php" class="button">Go to Product Page</a>
       
      
     </div>
   </div>
-  <div class="row">
+  <div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-4">
       <h3>Teem</h3>
+      <img src="./images/39.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Teem.php" class="button">Go to Product Page</a>
      
      
     </div>
     <div class="col-sm-4">
       <h3>Sophos</h3>
+      <img src="./images/40.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Sophos.php" class="button">Go to Product Page</a>
       
      
     </div>
-    <div class="col-sm-4">
-      <h3>Workday</h3>   
-          <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Workday.php" class="button">Go to Product Page</a>
-      
-    </div>
+   
   </div>    
 </div>
-<div class="collapse multi-collapse" id="science">
+<div class="collapse multi-collapse" id="science" style="background-color:grey">
 <p><a href="./science.php"><b><h2>Science and Technology</h2></b></a></p>
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>Car Cleaning Service
 </h3>
+<img src="./images/41.jpeg" alt="Smiley face" height="100" width="200">
       <a href="http://thevirtualworks.net/car-cleaning.php
 " class="button">Go to Product Page</a>
     </div>
     <div class="col-sm-3">
       <h3>Carpet Cleaning Service</h3>
+      <img src="./images/42.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://thevirtualworks.net/carpet-cleaning.php
 " class="button">Go to Product Page</a>
 
@@ -411,6 +440,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
     <div class="col-sm-3">
       <h3>Car Repair Service</h3>
+      <img src="./images/43.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://thevirtualworks.net/car-repair.php
 " class="button">Go to Product Page</a>
 
@@ -419,20 +449,23 @@ if(!isset($_COOKIE[$cookie_name])) {
      <div class="col-sm-3">
       <h3>Laundry Service
 </h3>
+<img src="./images/44.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://thevirtualworks.net/laundry-service.php
 " class="button">Go to Product Page</a>
 
 
     </div>
   </div>
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>Window Cleaning Service</h3>
+      <img src="./images/45.jpeg" alt="Smiley face" height="100" width="200">
       <a href="http://thevirtualworks.net/window-cleaning.php
 " class="button">Go to Product Page</a>
     </div>
     <div class="col-sm-3">
       <h3>Bike Repair Service</h3>
+      <img src="./images/46.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://thevirtualworks.net/bike-repair.php
 " class="button">Go to Product Page</a>
 
@@ -440,6 +473,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
     <div class="col-sm-3">
       <h3>Camera Repair Service</h3>
+      <img src="./images/47.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://thevirtualworks.net/camera-repair.php" class="button">Go to Product Page</a>
 
 
@@ -447,21 +481,24 @@ if(!isset($_COOKIE[$cookie_name])) {
      <div class="col-sm-3">
       <h3>Carpentry Service
 </h3>
+<img src="./images/48.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://thevirtualworks.net/carpentry-service.php
 " class="button">Go to Product Page</a>
 
 
     </div>
   </div>
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-4">
       <h3>Painting Service</h3>
+      <img src="./images/49.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://thevirtualworks.net/painting-service.php" class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-4">
       <h3>Computer Repair Service</h3>
+      <img src="./images/50.jpeg" alt="Smiley face" height="100" width="200">
           <a href="http://thevirtualworks.net/computer-repair.php
 " class="button">Go to Product Page</a>
 
