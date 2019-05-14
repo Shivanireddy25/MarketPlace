@@ -59,7 +59,8 @@ if(!isset($_COOKIE[$cookie_name])) {
       <a class="navbar-brand" href="./Topvisited.php">Most Visited</a>
      <a class="navbar-brand" href="./logout.php">Logout</a>  
   </nav>
-
+  <h1>Super Market</h1>
+    <h2>Products</h2>
 
 <p> <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mountain" aria-expanded="false" aria-controls="multiCollapseExample2">Mountain Side Tours</button>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sunshine" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Sunshine School</button>
@@ -85,12 +86,14 @@ if(!isset($_COOKIE[$cookie_name])) {
 </div>
 
 <div class="collapse multi-collapse" id="mountain" style="background-color:pink">
-    <h1>Super Market</h1>
-    <h2>Products</h2>
+<img src="./images/1.jpeg" alt="Smiley face" height="42" width="42">
+
+
     <p><a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/"<b><h2> Mountain Side Tours </h2></b></a></p>
 <div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>All Inclusive Packages </h3>
+      
       <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/checkpage.php
 " class="button">Go to Product Page</a>
 
@@ -115,7 +118,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 
     </div>
   </div>
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>Trekking</h3>
       <button onClick="gameFunc()">Go to Product Page</button>
@@ -142,7 +145,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
   </div>
 
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-4">
       <h3>Resort Stay And Party </h3>
           <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/resort.php" class="button">Go to Product Page</a>
