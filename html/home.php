@@ -36,9 +36,11 @@ if(!isset($_COOKIE[$cookie_name])) {
     <style>
       body {
         text-align: center;
+        background-image: radial-gradient(lightblue, grey);
       }
       h1 {
         color: green;
+       
       }
       form {
         text-align: center;
@@ -53,7 +55,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 <div class="fb-share-button" data-href="http://ec2-3-14-79-22.us-east-2.compute.amazonaws.com/home.php" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fec2-3-14-79-22.us-east-2.compute.amazonaws.com%2Fhome.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
 
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light" style= "background-image: radial-gradient(lightblue, grey)">
       <a class="navbar-brand" href="./home.php">Home</a>
       <a class="navbar-brand" href="./visited.php">History</a>
       <a class="navbar-brand" href="./Topvisited.php">Most Visited</a>
@@ -122,7 +124,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 
     </div>
   </div>
-<div class="row" style= "background-image: radial-gradient(pink, orange)">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>Trekking</h3>
       <img src="./images/5.jpeg" alt="Smiley face" height="100" width="200">
@@ -153,7 +155,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
   </div>
 
-<div class="row" style= "background-image: radial-gradient(skyblue, orange)">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-4">
       <h3>Resort Stay And Party </h3>
       <img src="./images/9.jpeg" alt="Smiley face" height="100" width="200">
@@ -173,7 +175,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 </div>
 <div class="collapse multi-collapse" id="sunshine" style="background-color:grey">
     <p><a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/index.html"><b><h2>Sunshine School </h2></b></a></p>
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(pink, orange)" >
     <div class="col-sm-3">
       <h3>Academic Excellence</h3>
       <img src="./images/11.jpeg" alt="Smiley face" height="100" width="200">
@@ -206,7 +208,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 
     </div>
   </div>
-<div class="row" style= "background-image: radial-gradient(lightgreen, grey)">
+<div class="row" style= "background-image: radial-gradient(pink, orange)">
 <div class="col-sm-3">
 <h3>Science and Technology
 </h3>
@@ -241,7 +243,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
   </div>
 
-<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
+<div class="row" style= "background-image: radial-gradient(pink, orange)">
     <div class="col-sm-4">
       <h3>Olympiads</h3>
       <img src="./images/19.jpeg" alt="Smiley face" height="100" width="200">
@@ -347,7 +349,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 
 
 
-<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
+<div class="row" style= "background-image: radial-gradient(skyblue, orange)">
     <div class="col-sm-3">
       <h3>KnowBe4</h3>
       <img src="./images/31.jpeg" alt="Smiley face" height="100" width="200">
@@ -375,7 +377,7 @@ if(!isset($_COOKIE[$cookie_name])) {
       
     </div>
   </div>
-  <div class="row" style= "background-image: radial-gradient(lightblue, grey)">
+  <div class="row" style= "background-image: radial-gradient(skyblue, orange)">
   <div class="col-sm-3">
       <h3>Zoom</h3>
       <img src="./images/35.jpeg" alt="Smiley face" height="100" width="200">
@@ -402,7 +404,7 @@ if(!isset($_COOKIE[$cookie_name])) {
      
     </div>
   </div>
-  <div class="row" style= "background-image: radial-gradient(lightblue, grey)">
+  <div class="row" style= "background-image: radial-gradient(skyblue, orange)">
     <div class="col-sm-4">
       <h3>Teem</h3>
       <img src="./images/39.jpeg" alt="Smiley face" height="100" width="200">
@@ -421,8 +423,8 @@ if(!isset($_COOKIE[$cookie_name])) {
   </div>    
 </div>
 <div class="collapse multi-collapse" id="science" style="background-color:grey">
-<p><a href="./science.php"><b><h2>Science and Technology</h2></b></a></p>
-<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
+<p><a href="./science.php"><b><h2>Car Services</h2></b></a></p>
+<div class="row" style= "background-image: radial-gradient(lightgreen, grey)">
     <div class="col-sm-3">
       <h3>Car Cleaning Service
 </h3>
@@ -456,7 +458,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 
     </div>
   </div>
-<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
+<div class="row" style= "background-image: radial-gradient(lightgreen, grey)">
     <div class="col-sm-3">
       <h3>Window Cleaning Service</h3>
       <img src="./images/45.jpeg" alt="Smiley face" height="100" width="200">
@@ -488,7 +490,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 
     </div>
   </div>
-<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
+<div class="row" style= "background-image: radial-gradient(lightgreen, grey)">
     <div class="col-sm-4">
       <h3>Painting Service</h3>
       <img src="./images/49.jpeg" alt="Smiley face" height="100" width="200">
