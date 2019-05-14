@@ -88,7 +88,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     <h1>Super Market</h1>
     <h2>Products</h2>
     <p><a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/"<b><h2> Mountain Side Tours </h2></b></a></p>
-<div class="row">
+<div class="row" style= "background-image: radial-gradient(lightblue, grey)">
     <div class="col-sm-3">
       <h3>All Inclusive Packages </h3>
       <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/checkpage.php
