@@ -30,6 +30,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -39,7 +40,7 @@ if(!isset($_COOKIE[$cookie_name])) {
         background-image: radial-gradient(lightblue, grey);
       }
       h1 {
-        color: green;
+        color: white;
        
       }
       form {
@@ -49,22 +50,21 @@ if(!isset($_COOKIE[$cookie_name])) {
   </head>
   <body>
 
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
-
-<div class="fb-share-button" data-href="http://ec2-3-14-79-22.us-east-2.compute.amazonaws.com/home.php" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fec2-3-14-79-22.us-east-2.compute.amazonaws.com%2Fhome.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-
-
     <nav class="navbar navbar-light bg-light" style= "background-image: radial-gradient(lightblue, grey)">
       <a class="navbar-brand" href="./home.php">Home</a>
       <a class="navbar-brand" href="./visited.php">History</a>
       <a class="navbar-brand" href="./Topvisited.php">Most Visited</a>
      <a class="navbar-brand" href="./logout.php">Logout</a>  
-  </nav>
-  <h1>Super Market</h1>
-    <h2>Products</h2>
+     <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
 
-<p> <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mountain" aria-expanded="false" aria-controls="multiCollapseExample2">Mountain Side Tours</button>
+<div class="fb-share-button" data-href="http://ec2-3-14-79-22.us-east-2.compute.amazonaws.com/home.php" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fec2-3-14-79-22.us-east-2.compute.amazonaws.com%2Fhome.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+  </nav>
+  <h1> <b>Shoppers Stop </b></h1>
+   
+
+<p> Click on the category to visit the services provided by them <i class="far fa-hand-point-right"></i>
+ <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mountain" aria-expanded="false" aria-controls="multiCollapseExample2">Mountain Side Tours</button>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sunshine" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Sunshine School</button>
 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#hon" aria-expanded="false" aria-controls="multiCollapseExample2">Hon Viet</button>
 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#vision" aria-expanded="false" aria-controls="multiCollapseExample2">Vision</button>
