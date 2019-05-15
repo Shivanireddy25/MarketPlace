@@ -5,7 +5,7 @@ cookieFunc("MountainSide_siteUsers");
 
 <div>
 <?php
-echo "<h2>MountainSide Site Users</h2>";
+echo "<h2 align = 'center'>Top Visited Services</h2>";
 $servername = "localhost:3306";
 $username = "root";
 $password = "root";

@@ -12,7 +12,7 @@
 				
 				
 // Display result
-echo 'Top Rated Product';
+echo "<h2 align = 'center'>Top Rated Services</h2>";
 for ($row = 0; $row < count($top_rating) && $row <= 5; $row++) {
 
 	$product_image = $top_rating[$row]["product_image"];
@@ -25,7 +25,7 @@ for ($row = 0; $row < count($top_rating) && $row <= 5; $row++) {
 			<a href="'; echo $product_url; echo '"><img src="'; echo $product_image; echo'"/></a></div>';
 	}
 
-    echo 'Top Review Product';
+    echo "<h2 align = 'center'>Top Reviewed Services</h2>";
 for ($row = 0; $row < count($top_review) && $row <= 5; $row++) {
 
 	$product_image = $top_review[$row]["product_image"];
