@@ -3,7 +3,7 @@ include "trackWeb.php";
 cookieFunc("MountainSide_siteUsers");
 ?>
 
-
+<div>
 <?php
 echo "<h2>MountainSide Site Users</h2>";
 $servername = "localhost:3306";
@@ -27,7 +27,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
 
-echo "<table border='1' id= results>
+echo "<table align = 'center' border='1' id= results>
 <tr>
 <th>Product</th>
 <th>Number of Visits</th>
