@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+
 <?php
 include "trackWeb.php";
 cookieFunc("MountainSide_siteUsers");
 ?>
 
-<html>
-<body style = "background-image: radial-gradient(lightblue, grey)">
+
+<?php
 echo "<h2 align = 'center'>Top Visited Services</h2>";
 $servername = "localhost:3306";
 $username = "root";
@@ -49,6 +49,4 @@ echo "</table>";
 
 $conn->close();
 ?>
-</body>
-</html>
 
