@@ -96,11 +96,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Login</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
     <style type="text/css">
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 350px; padding: 20px; }
+        body{ font: 14px sans-serif;  background-image: radial-gradient(lightblue, grey); }
+        .wrapper{ width: 350px; padding: 20px;  text-align: center;}
     </style>
 </head>
-<body  style= "background-image: radial-gradient(lightblue, grey)">
+<body  >
     <div class="wrapper" >
         <h2>Login to honviet.us</h2>
         <p>Please input username and password to login.</p>
