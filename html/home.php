@@ -55,7 +55,7 @@ if(!isset($_COOKIE[$cookie_name])) {
       <a class="navbar-brand" href="./visited.php">History</a>
       <a class="navbar-brand" href="./Topvisited.php">Five Most Visited</a>
      <a class="navbar-brand" href="./TopRateAndReview.php">Five Top Rated Products</a>  
-     <a class="navbar-brand" href="./TopRateAndReview.php">Five Top Comments</a>  
+     <a class="navbar-brand" href="./TopRateAndReview.php">Five Top Reviews</a>  
      <a class="navbar-brand" href="./logout.php">Logout</a>  
      <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
