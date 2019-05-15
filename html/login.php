@@ -101,7 +101,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper" align="center" style= "background-image: radial-gradient(lightblue, grey)">
         <h2>Login to honviet.us</h2>
         <p>Please input username and password to login.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
