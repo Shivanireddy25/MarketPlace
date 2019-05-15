@@ -1,6 +1,6 @@
 <?php
-// (1) Include rating library and DB connection
-	require_once "configuration.php";
+
+	require_once "config.php";
 	require_once "rating_lib.php";
 
 	$starLib = new Rating();
