@@ -21,7 +21,7 @@ for ($row = 0; $row < count($top_rating) && $row <= 5; $row++) {
 	$rating_point =  $top_rating[$row]["RatingPoint"];
 	//print("Top Rating Product " .$product_id. "-" .$product_image. "-" //.$product_url. "-" .$rating_point. "<br/>");
 
-	echo '<div class="post" >
+	echo '<div class="post" align = "center" >
 			<a href="'; echo $product_url; echo '"><img src="'; echo $product_image; echo'"/></a></div>';
 	}
 
@@ -33,7 +33,7 @@ for ($row = 0; $row < count($top_review) && $row <= 5; $row++) {
 	$product_url = $top_review[$row]["product_url"];
 	$review_number =  $top_review[$row]["ReviewNumber"];
 	//print("Top Review Product " .$product_id."-" .$product_image. "-" //.$product_url. "-" .$review_number. "<br/>");
-	echo '<div class="post">
+	echo '<div class="post"  align = "center">
 			<a href="'; echo $product_url; echo '"><img src="'; echo $product_image; echo'"/></a></div>';
     }
     
