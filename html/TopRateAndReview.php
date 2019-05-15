@@ -1,3 +1,4 @@
+<?php
 // (1) Include rating library and DB connection
 	require_once "configuration.php";
 	require_once "rating_lib.php";
@@ -33,4 +34,6 @@ for ($row = 0; $row < count($top_review) && $row <= 5; $row++) {
 	//print("Top Review Product " .$product_id."-" .$product_image. "-" //.$product_url. "-" .$review_number. "<br/>");
 	echo '<div class="post">
 			<a href="'; echo $product_url; echo '"><img src="'; echo $product_image; echo'"/></a></div>';
-	}
+    }
+    
+    ?>
