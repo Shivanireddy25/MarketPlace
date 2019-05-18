@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>ii
 <?php
 include "trackWeb.php";
 cookieFunc("homepage");
@@ -15,9 +15,24 @@ if(!isset($_COOKIE[$cookie_name])) {
 ?>
 
 <script>
- function gameFunc() {
-	localStorage.setItem('hello', 'hello');
-	window.open('http://www.google.com');
+ function gameFunc(cookiename, surl) {
+//	console.log("in game func")	
+        var cookielist = localStorage.getItem("visited");
+	if (cookielist) {
+	cookielist = JSON.parse(cookielist);
+	}
+	else { 
+	cookielist = [];
+	}
+	cookielist.push(cookiename);
+	cookielist = cookielist.filter(function(item, index){
+	return cookielist.indexOf(item) >= index;
+	});
+	
+//	console.log("cookielist", JSON.stringify(cookielist))
+	localStorage.setItem("visited", JSON.stringify(cookielist));
+	localStorage.setItem(cookiename, surl);
+	window.open(surl, "_self");
 
 }
 </script>
@@ -52,7 +67,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 
     <nav class="navbar navbar-light bg-light" style= "background-image: radial-gradient(lightblue, grey)">
       <a class="navbar-brand" href="./home.php">Home</a>
-      <a class="navbar-brand" href="./visited.php">History</a>
+      <a class="navbar-brand" href="./visited.html">History</a>
       <a class="navbar-brand" href="./Topvisited.php">Five Most Visited</a>
      <a class="navbar-brand" href="./TopRateAndReview.php">Five Top Rated Products</a>  
      <a class="navbar-brand" href="./TopRateAndReview.php">Five Top Reviews</a>  
@@ -61,7 +76,11 @@ if(!isset($_COOKIE[$cookie_name])) {
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
 
 <div class="fb-share-button" data-href="http://ec2-3-14-79-22.us-east-2.compute.amazonaws.com/home.php" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fec2-3-14-79-22.us-east-2.compute.amazonaws.com%2Fhome.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
   </nav>
+
+
   <h1> <b>Shoppers Stop </b></h1>
    
 
@@ -99,22 +118,21 @@ if(!isset($_COOKIE[$cookie_name])) {
       <h3>All Inclusive Packages </h3>
       <img src="./images/1.jpeg" alt="Smiley face" height="100" width="200">
       
-      <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/checkpage.php
-" class="button">Go to Product Page</a>
+      <a onClick='gameFunc("All Inclusive Packages", "http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/checkpage.php")'  class="button">Go to Product Page</a>
 
     </div>
     <div class="col-sm-3">
-      <h3>Customaizable Vacation package</h3>
+      <h3>Customizable Vacation package</h3>
       <img src="./images/2.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/customPackage.php" class="button">Go to Product Page</a>
+          <a  onClick='gameFunc("Customizable Vacation package", "http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/customPackage.php")' class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-3">
       <h3> Group Discounts</h3>
       <img src="./images/3.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/group.php" class="button">Go to Product Page</a>
-
+          
+	 <a  onClick='gameFunc("Group Discounts", "http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/group.php")' class="button">Go to Product Page</a>
 
     </div>
      <div class="col-sm-3">
@@ -130,7 +148,9 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-3">
       <h3>Trekking</h3>
       <img src="./images/5.jpeg" alt="Smiley face" height="100" width="200">
-      <button onClick="gameFunc()">Go to Product Page</button>
+      <a href="#" onClick="document.write('<?php function hello(){
+              setcookie("hello", "hello");
+          } ?>');">Go to Product Page</a>
     </div>
     <div class="col-sm-3">
       <h3>HoneyMoon Packages </h3>
@@ -161,7 +181,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-4">
       <h3>Resort Stay And Party </h3>
       <img src="./images/9.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/resort.php" class="button">Go to Product Page</a>
+             <a onClick='gameFunc("Resort Stay and Party", "http://ec2-54-193-88-197.us-west-1.compute.amazonaws.com/resort.php")'  class="button">Go to Product Page</a>
 
 
     </div>
@@ -187,16 +207,14 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-3">
       <h3>Notable Alumni</h3>
       <img src="./images/12.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/alumni.php
-" class="button">Go to Product Page</a>
+          <a class="button" onClick='gameFunc("alumni", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/alumni.php")'>Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-3">
       <h3> Sports</h3>
       <img src="./images/13.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/sports.php
-" class="button">Go to Product Page</a>
+          <a class="button"  onClick='gameFunc("sports", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/sports.php")'>Go to Product Page</a>
 
 
     </div>
