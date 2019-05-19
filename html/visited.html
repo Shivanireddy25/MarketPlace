@@ -1,41 +1,4 @@
 <!DOCTYPE html>
-<?php
-$arr = array();
-if(isset($_COOKIE["acad"])) {
-echo "Value is: " . $_COOKIE["acad"];
-$acadcount = $_COOKIE["acad"];
-if ($acadcount > 0)
-$arr["acadcount"] = $acadcount;
-}
-
-$mostvisited = array();
-$mostvisited["acadcount"] = 'Academic Excellence';
-
-if (count($arr) > 0) {
-arsort($arr);
-$i = 1;
-foreach ($arr as $key => $value) {
- echo $mostvisited[$key]."   ".$value."<br/>";
- $i++;
- if ($i > 5)
- break;
-}
-} else {
-    echo "<h3>No search results</h3>";
-}	
-
-?>
-
-
-<?php
-$cookie_name = "acad";
-if(!isset($_COOKIE[$cookie_name])) {
-    echo "Cookie named '" . $cookie_name . "' is not set!";
-} else {
-    echo "Cookie '" . $cookie_name . "' is set!<br>";
-    echo "Value is: " . $_COOKIE[$cookie_name];
-}
-?>
 
 
 <html>
@@ -67,13 +30,37 @@ if(!isset($_COOKIE[$cookie_name])) {
       <a class="navbar-brand" href="./visited.php">History</a>
 	 <a class="navbar-brand" href="./mostvisited.php">Most Visited</a>
     </nav>
-    <h1>Sunshine School</h1>
+    <h1>SuperMarket</h1>
     <h2>Last Visited Pages</h2>
-<?php
-$cookie_name = 'homepage';
 
-
-
-?>
+    
+	<table id="table0" style="width:30%" align="center"></table>
 </body>
 </html>
+
+
+<script>
+
+var array = localStorage.getItem('visited'),
+    tr;
+
+if (array){
+array = JSON.parse(array);
+array = array.reverse()
+array.forEach((v, i) => {
+    var td = document.createElement('td');
+    
+   
+        tr = document.createElement('tr');
+        document.getElementById('table0').appendChild(tr);
+    var aTag = document.createElement('a');
+	var link = localStorage.getItem(v);
+    aTag.setAttribute('href',link);
+aTag.innerHTML = v;
+    td.appendChild(aTag);
+    tr.appendChild(td);
+});
+
+}
+
+</script>
