@@ -1,5 +1,3 @@
-<html>
-<body>
 <?php
 
 	require_once "config.php";
@@ -40,5 +38,3 @@ for ($row = 0; $row < count($top_review) && $row <= 5; $row++) {
     }
     
     ?>
-	</body>
-	</html>
