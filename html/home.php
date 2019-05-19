@@ -266,8 +266,8 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-4">
       <h3>Olympiads</h3>
       <img src="./images/19.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/olympiad.php
-" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Olympiads", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/olympiad.php")' class="button">Go to Product Page</a>
+
 
 
     </div>
@@ -275,8 +275,8 @@ if(!isset($_COOKIE[$cookie_name])) {
       <h3>Computer Science
 </h3>
 <img src="./images/20.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/computer.php
-" class="button">Go to Product Page</a>
+<a  onClick='gameFunc("Computer Science", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/computer.php")' class="button">Go to Product Page</a>
+
 
 
     </div>
