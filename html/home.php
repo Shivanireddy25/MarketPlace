@@ -82,9 +82,11 @@ if(!isset($_COOKIE[$cookie_name])) {
 
 
   <h1> <b>Shoppers Stop </b></h1>
+
    
 
 <p><b> Click on the category to visit the services provided by them </b> <i class="far fa-hand-point-right"></i>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#services" aria-expanded="false" aria-controls="multiCollapseExample2">Services Overview</button>
  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mountain" aria-expanded="false" aria-controls="multiCollapseExample2">Mountain Side Tours</button>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sunshine" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Sunshine School</button>
 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#hon" aria-expanded="false" aria-controls="multiCollapseExample2">Hon Viet</button>
@@ -107,6 +109,11 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
   </div>
 </div>
+
+<div class="collapse multi-collapse" id="services" style="background-color:grey">
+
+<img src="./images/bg.jpg" alt="Italian Trulli">
+    </div>
 
 <div class="collapse multi-collapse" id="mountain" style="background-color:grey">
 
