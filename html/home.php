@@ -289,26 +289,25 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-3">
       <h3>Beef Noodles</h3>
       <img src="./images/21.jpeg" alt="Smiley face" height="100" width="200">
-      <a href="http://honviet.us/beef_noodle.html" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Beef Noodles", "http://honviet.us/beef_noodle.html")' class="button">Go to Product Page</a>
     </div>
     <div class="col-sm-3">
       <h3>Banh Xeo</h3>
       <img src="./images/22.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://honviet.us/banhxeo.html" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Banh Xeo", "http://honviet.us/banhxeo.html")' class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-3">
       <h3> Beef Salad </h3>
       <img src="./images/23.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://honviet.us/beef_salad.html" class="button">Go to Product Page</a>
-
+      <a  onClick='gameFunc("Beef Salad", "http://honviet.us/beef_salad.html")' class="button">Go to Product Page</a>
 
     </div>
      <div class="col-sm-3">
       <h3>Chicken Noodles</h3>
       <img src="./images/24.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://honviet.us/chicken_noodle.html" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Chicken Noodles", "http://honviet.us/chicken_noodle.html")' class="button">Go to Product Page</a>
 
 
     </div>
@@ -322,21 +321,21 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-3">
       <h3>Shrimp Salad</h3>
       <img src="./images/26.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://honviet.us/shrimp_salad.html" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Shrimp Salad", "http://honviet.us/shrimp_salad.html")' class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-3">
       <h3>Crab Noodles</h3>
       <img src="./images/27.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://honviet.us/crab_noodle.html" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Crab Noodles", "http://honviet.us/crab_noodle.html")' class="button">Go to Product Page</a>
 
 
     </div>
      <div class="col-sm-3">
       <h3>Jelly fish salad</h3>
       <img src="./images/28.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://honviet.us/jelly_salad.html" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Jelly fish salad", "http://honviet.us/jelly_salad.html")' class="button">Go to Product Page</a>
 
 
     </div>
@@ -347,14 +346,14 @@ if(!isset($_COOKIE[$cookie_name])) {
 
       <h3>Chicken Salad</h3>
       <img src="./images/29.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://honviet.us/chicken_salad.html" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Chicken Salad", "http://honviet.us/chicken_salad.html")' class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-4">
       <h3>Bread</h3>
       <img src="./images/30.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://honviet.us/banhmi.html" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Bread", "http://honviet.us/banhmi.html")' class="button">Go to Product Page</a>
 
 
     </div>
