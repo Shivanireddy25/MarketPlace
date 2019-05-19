@@ -101,7 +101,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty(trim($_POST["homeaddress"]))){
         $homeaddress_err = "Please input your address to continue.";     
     } elseif((strlen(trim($_POST["homeaddress"])) > 100)) {
-        $homeaddress_err = "Home address can not be longer than 50 characters.";
+        $homeaddress_err = "Home address can not be longer than 100 characters.";
     } else{
         $homeaddress = trim($_POST["homeaddress"]);
     }
@@ -177,8 +177,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
     <style type="text/css">
         body{ font: 14px sans-serif;
-           background-image: radial-gradient(lightblue, grey);
-         }
+            background-image: radial-gradient(lightblue, grey) ;}
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
