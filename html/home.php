@@ -447,22 +447,21 @@ if(!isset($_COOKIE[$cookie_name])) {
       <h3>Car Cleaning Service
 </h3>
 <img src="./images/41.jpeg" alt="Smiley face" height="100" width="200">
-      <a href="http://thevirtualworks.net/car-cleaning.php
-" class="button">Go to Product Page</a>
+<a  onClick='gameFunc("Car Cleaning Service", "http://thevirtualworks.net/car-cleaning.php")' class="button">Go to Product Page</a>
+
     </div>
     <div class="col-sm-3">
       <h3>Carpet Cleaning Service</h3>
       <img src="./images/42.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://thevirtualworks.net/carpet-cleaning.php
-" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Carpet Cleaning Service", "http://thevirtualworks.net/carpet-cleaning.php")' class="button">Go to Product Page</a>
+
 
 
     </div>
     <div class="col-sm-3">
       <h3>Car Repair Service</h3>
       <img src="./images/43.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://thevirtualworks.net/car-repair.php
-" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Car Repair Service", "http://thevirtualworks.net/car-repair.php")' class="button">Go to Product Page</a>
 
 
     </div>
@@ -470,8 +469,8 @@ if(!isset($_COOKIE[$cookie_name])) {
       <h3>Laundry Service
 </h3>
 <img src="./images/44.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://thevirtualworks.net/laundry-service.php
-" class="button">Go to Product Page</a>
+<a  onClick='gameFunc("Laundry Service", "http://thevirtualworks.net/laundry-service.php")' class="button">Go to Product Page</a>
+
 
 
     </div>
@@ -480,21 +479,23 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-3">
       <h3>Window Cleaning Service</h3>
       <img src="./images/45.jpeg" alt="Smiley face" height="100" width="200">
-      <a href="http://thevirtualworks.net/window-cleaning.php
-" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Window Cleaning Service", "http://thevirtualworks.net/window-cleaning.php")' class="button">Go to Product Page</a>
+
     </div>
+
     <div class="col-sm-3">
       <h3>Bike Repair Service</h3>
       <img src="./images/46.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://thevirtualworks.net/bike-repair.php
-" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Bike Repair Service", "http://thevirtualworks.net/bike-repair.php")' class="button">Go to Product Page</a>
+
 
 
     </div>
     <div class="col-sm-3">
       <h3>Camera Repair Service</h3>
       <img src="./images/47.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://thevirtualworks.net/camera-repair.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Camera Repair Service", "http://thevirtualworks.net/camera-repair.php")' class="button">Go to Product Page</a>
+
 
 
     </div>
@@ -502,8 +503,8 @@ if(!isset($_COOKIE[$cookie_name])) {
       <h3>Carpentry Service
 </h3>
 <img src="./images/48.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://thevirtualworks.net/carpentry-service.php
-" class="button">Go to Product Page</a>
+<a  onClick='gameFunc("Carpentry Service", "http://thevirtualworks.net/carpentry-service.php")' class="button">Go to Product Page</a>
+
 
 
     </div>
@@ -512,15 +513,15 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-4">
       <h3>Painting Service</h3>
       <img src="./images/49.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://thevirtualworks.net/painting-service.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Painting Service", "http://thevirtualworks.net/painting-service.php")' class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-4">
       <h3>Computer Repair Service</h3>
       <img src="./images/50.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://thevirtualworks.net/computer-repair.php
-" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Computer Repair Service", "http://thevirtualworks.net/computer-repair.php")' class="button">Go to Product Page</a>
+
 
 
     </div>
