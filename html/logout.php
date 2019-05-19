@@ -13,4 +13,15 @@ header("location: index.php");
 exit;
 ?>
 
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body style="background-image: radial-gradient(lightblue, grey);">
+
+
+
+</body>
+</html>
 
