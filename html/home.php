@@ -293,7 +293,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
     <div class="col-sm-3">
       <h3>Banh Xeo</h3>
-      <img src="./images/22.jpeg" alt="Smiley face" height="100" width="200">
+      <img src="./images/24.jpeg" alt="Smiley face" height="100" width="200">
       <a  onClick='gameFunc("Banh Xeo", "http://honviet.us/banhxeo.html")' class="button">Go to Product Page</a>
 
 
@@ -306,7 +306,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
      <div class="col-sm-3">
       <h3>Chicken Noodles</h3>
-      <img src="./images/24.jpeg" alt="Smiley face" height="100" width="200">
+      <img src="./images/22.jpeg" alt="Smiley face" height="100" width="200">
       <a  onClick='gameFunc("Chicken Noodles", "http://honviet.us/chicken_noodle.html")' class="button">Go to Product Page</a>
 
 
