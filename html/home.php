@@ -1,4 +1,4 @@
-<!DOCTYPE html>ii
+<!DOCTYPE html>
 <?php
 include "trackWeb.php";
 cookieFunc("homepage");
@@ -89,7 +89,7 @@ if(!isset($_COOKIE[$cookie_name])) {
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sunshine" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Sunshine School</button>
 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#hon" aria-expanded="false" aria-controls="multiCollapseExample2">Hon Viet</button>
 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#vision" aria-expanded="false" aria-controls="multiCollapseExample2">Vision</button>
-<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#science" aria-expanded="false" aria-controls="multiCollapseExample2">Science and Technology</button>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#science" aria-expanded="false" aria-controls="multiCollapseExample2">Car Cleaning Services</button>
 </p>
 <div class="row">
   <div class="col">
