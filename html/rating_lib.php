@@ -130,3 +130,14 @@ class Rating {
   }
 }
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body style="background-image: radial-gradient(lightblue, grey);">
+
+
+
+</body>
+</html>

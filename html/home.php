@@ -69,8 +69,8 @@ if(!isset($_COOKIE[$cookie_name])) {
       <a class="navbar-brand" href="./home.php">Home</a>
       <a class="navbar-brand" href="./visited.html">History</a>
       <a class="navbar-brand" href="./Topvisited.php">Five Most Visited</a>
-     <a class="navbar-brand" href="./TopRateAndReview.html">Five Top Rated Products</a>  
-     <a class="navbar-brand" href="./TopRateAndReview.html">Five Top Reviews</a>  
+     <a class="navbar-brand" href="./TopRated.php"> Top Rated Products</a>  
+     <a class="navbar-brand" href="./TopReviewed.php"> Top Reviewed Products</a>  
      <a class="navbar-brand" href="./logout.php">Logout</a>  
      <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
@@ -82,9 +82,11 @@ if(!isset($_COOKIE[$cookie_name])) {
 
 
   <h1> <b>Shoppers Stop </b></h1>
+
    
 
 <p><b> Click on the category to visit the services provided by them </b> <i class="far fa-hand-point-right"></i>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#services" aria-expanded="false" aria-controls="multiCollapseExample2">Services Overview</button>
  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mountain" aria-expanded="false" aria-controls="multiCollapseExample2">Mountain Side Tours</button>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sunshine" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Sunshine School</button>
 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#hon" aria-expanded="false" aria-controls="multiCollapseExample2">Hon Viet</button>
@@ -107,6 +109,11 @@ if(!isset($_COOKIE[$cookie_name])) {
     </div>
   </div>
 </div>
+
+<div class="collapse multi-collapse" id="services" style="background-color:grey">
+
+<img src="./images/bg.jpg" alt="Italian Trulli">
+    </div>
 
 <div class="collapse multi-collapse" id="mountain" style="background-color:grey">
 

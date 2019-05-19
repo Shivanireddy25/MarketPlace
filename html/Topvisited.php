@@ -50,3 +50,14 @@ echo "</table>";
 $conn->close();
 ?>
 
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body style="background-image: radial-gradient(lightblue, grey);">
+
+
+
+</body>
+</html>
