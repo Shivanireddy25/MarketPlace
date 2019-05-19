@@ -1,4 +1,10 @@
+
 <?php
+
+
+/*** set the content type header ***/
+/*** Without this header, it wont work ***/
+
 
 	require_once "config.php";
 	require_once "rating_lib.php";
@@ -37,4 +43,17 @@ for ($row = 0; $row < count($top_review) && $row <= 5; $row++) {
 			<a href="'; echo $product_url; echo '"><img src="'; echo $product_image; echo'"/></a></div>';
     }
     
-    ?>
+	?>
+	
+
+	<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body style="background-color:powderblue;">
+
+
+
+</body>
+</html>
