@@ -1,6 +1,7 @@
 <?php
 // Include configuration file for calling DB connection
 require_once "configuration.php";
+
  
 // Define variables for username and password store and initialize with empty values
 $username = $password = $cfm_password = $firstname = $lastname = $email = $homeaddress = $homephone = $cellphone = "";
@@ -13,6 +14,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty(trim($_POST["username"]))){
         $username_err = "Please enter a username to continue.";
     } else{
+		$param_username = trim($_POST["username"]);
+
         // Prepare a sql statement to select user id from users table
         $sql = "SELECT id FROM users WHERE username = ?";
         
@@ -23,15 +26,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                    
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
+
                 /* store result */
                 mysqli_stmt_store_result($stmt);
-                
+
                 if(mysqli_stmt_num_rows($stmt) == 1){
                     $username_err = "This username is already existed.";
                 } else{
                     $username = trim($_POST["username"]);
                 }
-            } else{
+            } else{ 
                 echo "Oops! Something went wrong. Please try again later.";
             }
         }
@@ -127,7 +131,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
    
     // Check errors before inserting into DB
     if(empty($username_err) && empty($password_err) && empty($cfm_password_err) && empty($firstname_err) && empty($lastname_err) && empty($email_err) && empty($homeaddress_err) && empty($homephone_err) && empty($cellphone_err)){
-    	echo "<h1>".$username."</h1>";    
+        
         // Prepare an insert statement
         $sql = "INSERT INTO users (username, firstname, lastname, email, homeaddress, homephone, cellphone, password) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
          
@@ -148,10 +152,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
-                header("location: home.php");
+                header("location: home.html");
             } else{
                 echo "Something went wrong. Please try again later.";
-				//printf("Error: %s.\n", mysqli_stmt_error($stmt));
+				printf("Error: %s.\n", mysqli_stmt_error($stmt));
 				 
             }
         }
@@ -235,4 +239,3 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </div>    
 </body>
 </html>
-
