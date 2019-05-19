@@ -201,20 +201,20 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-3">
       <h3>Academic Excellence</h3>
       <img src="./images/11.jpeg" alt="Smiley face" height="100" width="200">
-      <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/academics.php
-" class="button">Go to Product Page</a>
+<a  onClick='gameFunc("Group Discounts", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/academics.php")' class="button">Go to Product Page</a>
+
     </div>
     <div class="col-sm-3">
       <h3>Notable Alumni</h3>
       <img src="./images/12.jpeg" alt="Smiley face" height="100" width="200">
-          <a class="button" onClick='gameFunc("alumni", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/alumni.php")'>Go to Product Page</a>
+          <a  onClick='gameFunc("Group Discounts", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/alumni.php")' class="button">Go to Product Page</a>
 
 
     </div>
     <div class="col-sm-3">
       <h3> Sports</h3>
       <img src="./images/13.jpeg" alt="Smiley face" height="100" width="200">
-          <a class="button"  onClick='gameFunc("sports", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/sports.php")'>Go to Product Page</a>
+      <a  onClick='gameFunc("Group Discounts", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/sports.php")' class="button">Go to Product Page</a>
 
 
     </div>
@@ -222,8 +222,7 @@ if(!isset($_COOKIE[$cookie_name])) {
       <h3>Art and Cultural Activities
 </h3>
 <img src="./images/14.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/art.php
-" class="button">Go to Product Page</a>
+<a  onClick='gameFunc("Group Discounts", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/art.php")' class="button">Go to Product Page</a>
 
 
     </div>
@@ -233,22 +232,22 @@ if(!isset($_COOKIE[$cookie_name])) {
 <h3>Science and Technology
 </h3>
 <img src="./images/15.jpeg" alt="Smiley face" height="100" width="200">
-      <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/science.php
-" class="button">Go to Product Page</a>
+<a  onClick='gameFunc("Group Discounts", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/science.php")' class="button">Go to Product Page</a>
+
     </div>
     <div class="col-sm-3">
       <h3>Commerce
 </h3>
 <img src="./images/16.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/commerce.php
-" class="button">Go to Product Page</a>
+<a  onClick='gameFunc("Group Discounts", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/commerce.php")' class="button">Go to Product Page</a>
+
 
 
     </div>
     <div class="col-sm-3">
       <h3>History</h3>
       <img src="./images/17.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/history.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Group Discounts", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/history.php")' class="button">Go to Product Page</a>
 
 
     </div>
@@ -256,8 +255,8 @@ if(!isset($_COOKIE[$cookie_name])) {
       <h3>Personality Development
 </h3>
 <img src="./images/18.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/personality.php
-" class="button">Go to Product Page</a>
+<a  onClick='gameFunc("Group Discounts", "http://ec2-18-217-86-188.us-east-2.compute.amazonaws.com/272cookies/personality.php")' class="button">Go to Product Page</a>
+
 
 
     </div>
