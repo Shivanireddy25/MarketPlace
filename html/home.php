@@ -370,26 +370,26 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-3">
       <h3>KnowBe4</h3>
       <img src="./images/31.jpeg" alt="Smiley face" height="100" width="200">
-      <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/LastPass.php" class="button">Go to Product Page</a>     
+      <a  onClick='gameFunc("KnowBe4", "http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/KnowBe4.php")' class="button">Go to Product Page</a> 
     </div>
     <div class="col-sm-3">
       <h3>LastPass</h3>
       <img src="./images/32.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/LastPass.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("LastPass", "http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/LastPass.php")' class="button">Go to Product Page</a>
       
      
     </div>
     <div class="col-sm-3">
       <h3>Proofpoint 3</h3>
       <img src="./images/33.jpeg" alt="Smiley face" height="100" width="200">  
-          <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/ProofPoint.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Proofpoint 3", "http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/ProofPoint.php")' class="button">Go to Product Page</a>
       
       
     </div>
      <div class="col-sm-3">
       <h3>Jamf</h3>   
       <img src="./images/34.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Jamf.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Jamf", "http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Jamf.php")' class="button">Go to Product Page</a>
       
       
     </div>
@@ -398,25 +398,25 @@ if(!isset($_COOKIE[$cookie_name])) {
   <div class="col-sm-3">
       <h3>Zoom</h3>
       <img src="./images/35.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Zoom.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Zoom", "http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Zoom.php")' class="button">Go to Product Page</a>
       
     </div>
     <div class="col-sm-3">
       <h3>Atlassian</h3>
       <img src="./images/36.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Atlassian.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Atlassian", "http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Atlassian.php")' class="button">Go to Product Page</a>
       
     </div>
     <div class="col-sm-3">
       <h3>Freshservice</h3> 
       <img src="./images/37.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Freshservice.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Freshservice", "http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Freshservice.php")' class="button">Go to Product Page</a>
      
     </div>
      <div class="col-sm-3">
       <h3>Ring Central</h3>  
       <img src="./images/38.jpeg" alt="Smiley face" height="100" width="200">  
-          <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/RingCentral.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Ring Central", "http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/RingCentral.php")' class="button">Go to Product Page</a>
       
      
     </div>
@@ -425,14 +425,14 @@ if(!isset($_COOKIE[$cookie_name])) {
     <div class="col-sm-4">
       <h3>Teem</h3>
       <img src="./images/39.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Teem.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Teem", "http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Teem.php")' class="button">Go to Product Page</a>
      
      
     </div>
     <div class="col-sm-4">
       <h3>Sophos</h3>
       <img src="./images/40.jpeg" alt="Smiley face" height="100" width="200">
-          <a href="http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Sophos.php" class="button">Go to Product Page</a>
+      <a  onClick='gameFunc("Sophos", "http://ec2-18-221-59-200.us-east-2.compute.amazonaws.com/Sophos.php")' class="button">Go to Product Page</a>
       
      
     </div>
